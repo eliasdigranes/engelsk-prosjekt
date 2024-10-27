@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover London</title>
+    <link rel="stylesheet" href="styles-london.css">
+</head>
+<body>
+    <header>
+        <h1>Discover London</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="london-info.html">About London</a>
+            <a href="travel-from-norway.html">Travel from Norway</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Welcome to London!</h2>
+            <p>London is a vibrant city rich in history, culture, and world-famous landmarks like Big Ben, Tower Bridge, and the London Eye. Whether you're a fan of art, sports, or shopping, London offers something for everyone!</p>
+            <p>Be sure to explore historic sites, enjoy world-class dining, and experience the lively neighborhoods of the city.</p>
+        </section>
+
+        <section class="history">
+            <h2>History of London</h2>
+            <p>London's history stretches over two millennia, starting as a Roman settlement known as Londinium around AD 43. It has evolved into one of the world's leading financial, cultural, and artistic centers. Key historical events include:</p>
+            <ul>
+                <li>The Great Fire of 1666, which devastated much of the city but led to significant rebuilding and modernization.</li>
+                <li>The Victorian Era, which saw expansion and the construction of iconic structures like the Houses of Parliament.</li>
+                <li>World War II, during which London endured the Blitz, leading to significant destruction and post-war rebuilding efforts.</li>
+            </ul>
+        </section>
+
+        <section class="attractions">
+            <h2>Top Attractions</h2>
+            <p>London is home to numerous attractions, ensuring there is never a dull moment. Here are some must-visit sites:</p>
+            <ul>
+                <li><strong>The British Museum:</strong> One of the world’s largest and most comprehensive museums, housing millions of works from around the globe.</li>
+                <li><strong>The Tower of London:</strong> A historic castle and former royal palace, known for its role in British history and the Crown Jewels.</li>
+                <li><strong>The London Eye:</strong> A giant Ferris wheel offering stunning views of the city skyline.</li>
+                <li><strong>Westminster Abbey:</strong> A stunning Gothic church with over a thousand years of history, known for royal ceremonies and burials.</li>
+                <li><strong>Hyde Park:</strong> One of the largest parks in London, perfect for picnics, walks, and open-air concerts.</li>
+            </ul>
+        </section>
+
+        <section class="neighborhoods">
+            <h2>Popular Neighborhoods</h2>
+            <p>Each neighborhood in London has its own unique character:</p>
+            <ul>
+                <li><strong>Covent Garden:</strong> Famous for its shopping, restaurants, and street performances.</li>
+                <li><strong>Soho:</strong> Known for its vibrant nightlife, theaters, and diverse cuisine.</li>
+                <li><strong>Notting Hill:</strong> Renowned for its colorful houses and the annual Notting Hill Carnival.</li>
+                <li><strong>Shoreditch:</strong> A hub for creativity and street art, known for its trendy bars and markets.</li>
+                <li><strong>Southbank:</strong> Home to the Tate Modern, the National Theatre, and a scenic riverside walk.</li>
+            </ul>
+        </section>
+
+        <section class="food">
+            <h2>Food and Dining</h2>
+            <p>London boasts a diverse culinary scene that reflects its multicultural population. Popular dining options include:</p>
+            <ul>
+                <li><strong>Pubs:</strong> Traditional British pubs serve classics like fish and chips and Sunday roasts.</li>
+                <li><strong>Markets:</strong> Borough Market is a food lover's paradise with artisan food stalls and fresh produce.</li>
+                <li><strong>Fine Dining:</strong> London is home to numerous Michelin-starred restaurants offering innovative cuisine.</li>
+                <li><strong>Street Food:</strong> Try diverse offerings from food trucks and stalls in areas like Camden Market and Brick Lane.</li>
+            </ul>
+        </section>
+
+        <section class="culture">
+            <h2>Culture and Events</h2>
+            <p>London is a cultural melting pot with countless festivals, exhibitions, and events throughout the year:</p>
+            <ul>
+                <li><strong>The Notting Hill Carnival:</strong> A vibrant celebration of Caribbean culture held every August.</li>
+                <li><strong>London Fashion Week:</strong> Showcases the latest trends and designs in the fashion industry.</li>
+                <li><strong>West End Theatre:</strong> Home to numerous world-class productions, including musicals and plays.</li>
+                <li><strong>The Thames Festival:</strong> A celebration of the river, featuring music, art, and food along its banks.</li>
+            </ul>
+        </section>
+
+        <section class="tottenham">
+            <h2>Learn About Tottenham</h2>
+            <p>Tottenham Hotspur is a professional football club based in Tottenham, London. They have a rich history and are known for their passionate fans and impressive performances.</p>
+            <button id="playAudio" onclick="playAudio()">Play Audio</button>
+            <audio id="audio" src="Tottenhams History.m4a" preload="auto"></audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Discover London Guide</p>
+    </footer>
+
+    <script>
+        function playAudio() {
+            const audio = document.getElementById('audio');
+            audio.play();
+        }
+    </script>
+</body>
+</html>

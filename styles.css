@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #444;
+}
+
+/* Header Styling */
+header {
+    background-color: #002b5c;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header nav {
+    margin-top: 5px;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Parallax Styling */
+.parallax-container {
+    margin-bottom: 50px;
+}
+
+.parallax {
+    background-image: url('soccer-3566694_1280.jpg');
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Boxed Styling */
+.intro-box, .content-box {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.intro-text p, .content-text p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #002b5c;
+}
+
+/* Centered Section Styling */
+.centered-section {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.centered-section img {
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-below-image h2 {
+    font-size: 2rem;
+    color: #002b5c;
+    margin-top: 15px;
+}
+
+.text-below-image p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Button Styling */
+.large-button {
+    padding: 12px 30px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.large-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #002b5c;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}

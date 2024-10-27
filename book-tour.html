@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Stadium Tour!</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book a Stadium Tour</h1>
+        <p>Fill in the form below to book your tour of Tottenham Hotspur Stadium. This experience will give you behind-the-scenes access to one of the most advanced football stadiums in the world.</p>
+        
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+            
+            <label for="date">Preferred Tour Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="group-size">Group Size:</label>
+            <select id="group-size" name="group-size">
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="3">3 People</option>
+                <option value="4+">4 or more People</option>
+            </select>
+
+            <label for="comments">Comments or Special Requests:</label>
+            <textarea id="comments" name="comments" placeholder="Any special requests"></textarea>
+            
+            <button type="submit" class="large-button">Book Now</button>
+        </form>
+    </div>
+</body>
+</html>
